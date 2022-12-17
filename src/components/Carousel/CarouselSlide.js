@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CarouselSlide = (props) => {
-	const { id, slideTitle, slideDescription, slideBg } = props
+	const { slideTitle, slideDescription, slideBg } = props
 	return (
 		<div
 			className="slideWrap"
